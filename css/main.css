@@ -1,0 +1,11 @@
+html {
+  box-sizing: border html {
+    box-sizing: border-box;
+    background: #f2f1ed;
+    font-style: Georgia, sererif;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
