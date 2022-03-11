@@ -1,38 +1,50 @@
 html {
   box-sizing: border-box;
-    background: #f2f1ed;
-    font-family: 'Patua One', cursive;
-    line-height: 1.5;
-  }
+  color: #f2f1ed;
+  font-family: "Patua One", sans-serif;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-img{
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
   width: 100%;
 }
-h1, h2{
+
+h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
+  font-family: "Patua One", sans-serif;
 }
-figcaption{
+
+figcaption {
   font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
-nav{
+
+nav {
   font-size: 1.125rem;
   font-weight: bold;
+  font-family: "Patua One", sans-serif;
 }
-nav ol{
+
+nav ol {
   list-style-type: none;
 }
-nav a{
+
+nav a {
   color: #793284;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #b42885;
   text-decoration: underline;
 }
-.intro 1rem;
+
+.intro {
+  font-size: 1rem;
+}
